@@ -1,0 +1,101 @@
+body
+{
+    font-family: cursive;
+    background-image:url(bg.png);
+    background-repeat: repeat;
+    background-size: 100%;
+}
+
+h1
+{
+    font-size: 30px;
+}
+
+a
+{
+    color:black;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: darkmagenta;
+    text-decoration:overline;
+}
+
+a.active
+{
+    color: darkmagenta;
+}
+
+.basic
+{
+    color: crimson;
+}
+
+.basic:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+ul
+{
+    list-style-type: none;
+    padding: 10px 20px;
+    overflow: auto;
+}
+
+li
+{
+    font-size: 30px;
+    float: left;
+    padding: 10px 20px;
+    border: 8px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;
+    margin: 12px 12px;
+}
+
+li.active
+{
+    font-size: 40px;
+    float: left;
+    padding: 14px 16px;
+    border: 12px dotted black;
+    padding: 15px;
+    background: lightblue;
+    background-clip: border-box;
+    margin: 12px 12px;
+}
+
+
+div.leftcolumn
+{
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 10px;
+    margin-left: 30px;
+    margin-right: 20px;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+p::first-letter
+{
+    font-size: 200%;
+    color: darkmagenta
+}
+
+img
+{
+    margin-top: 50px;
+    margin-right: 50px;
+    width: 40%;
+    float: right;
+    box-sizing: border-box;
+}
+
+
+

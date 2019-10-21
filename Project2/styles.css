@@ -1,0 +1,63 @@
+body
+{
+    font-family: roboto;
+    background-image:url(bg.jpg);
+    background-repeat: repeat;
+    background-size: 100%;
+    color: khaki;
+}
+
+img
+{
+    float: right;
+    margin-top: 50px;
+    margin-right:100px;
+}
+
+p
+{
+    font-size: 24px;
+    line-height: 1.8;
+    text-align: justify;
+    margin-top: 1%;
+    margin-left: 2%;
+    margin-right: 2%;
+    float: left;
+    width: 48%;
+    box-sizing: border-box;
+}
+
+p::first-letter
+{
+    font-size: 200%;
+    color: gold;
+}
+
+center
+{
+    color: gold;
+    font-family: roboto;
+    font-style: bold;
+    font-size: 50px;
+}
+
+a
+{
+    border: 4px dashed gold;
+    color: white;
+    text-decoration: none;
+}
+
+a:hover
+{
+    color: black;
+    text-decoration: underline;
+}
+
+div.goback
+{
+    font-size: 20px;
+    font-stretch: expanded;
+    margin-top: 550px;
+    text-align: center;
+}
